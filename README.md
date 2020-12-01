@@ -1,7 +1,11 @@
 # marine-mammals-classification
+## Application:
+
+Trained model to classify a subset of a whale database. Attempt to tag these classfication in realtime using soundcard and streaming library.
 
 
 
+<hr>
 # Data Scrape and Augmentation
 
 [Watkins Whale Database](https://cis.whoi.edu/science/B/whalesounds/index.cfm)
