@@ -4,6 +4,11 @@
 
 # Data Scrape and Augmentation
 
+[Watkins Whale Database](https://cis.whoi.edu/science/B/whalesounds/index.cfm)
+
+* Mongoserver "Docker container"
+
+
 ## Classes: 
 
 
