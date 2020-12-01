@@ -17,3 +17,8 @@
 
 
 Once we have our training dataset we will proceed to Pre-process our audio to MFCCs. Here, we will take a MFCCs every 3 seconds of each audio track in each class. The audio is down sampled to 22050 and mono. We will walk through the training data set directories applying pre-processing to each class. The pre-processing python file will export our MFCCs, Labels and mappings for each class into a json file. 
+
+# Training CNN and Evaluating:
+
+[]("images/model_summary.png")
+
