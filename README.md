@@ -32,3 +32,9 @@ Once we have our training dataset we will proceed to Pre-process our audio to MF
 ![](images/model_summary.png)
 ![](images/training_plot.png)
 ![](images/classes.png)
+
+
+
+<hr>
+
+# Saved the entire model as "SaveModel format" and retrain on mel spectrograms.
