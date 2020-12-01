@@ -21,4 +21,5 @@ Once we have our training dataset we will proceed to Pre-process our audio to MF
 # Training CNN and Evaluating:
 
 ![](images/model_summary.png)
-
+![](images/training_plot.png)
+![](images/classes.png)
