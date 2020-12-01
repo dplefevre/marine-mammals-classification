@@ -33,8 +33,14 @@ Once we have our training dataset we will proceed to Pre-process our audio to MF
 ![](images/training_plot.png)
 ![](images/classes.png)
 
+## Confunsion matrix
 
+![](images/confusion_matrix.png)
 
 <hr>
 
 # Saved the entire model as "SaveModel format" and retrain on mel spectrograms.
+
+
+
+<>
