@@ -41,6 +41,14 @@ Once we have our training dataset we will proceed to Pre-process our audio to MF
 
 # Saved the entire model as "SaveModel format" and retrain on mel spectrograms.
 
+<hr>
+
+# Run Inference on unseen audio source "specifically from youtube & MBARI."
+
+![](images/inferenceHumpbackWhale.png)
+![](images/inferenceSpermWhale.png)
+
+
 
 
 <>
