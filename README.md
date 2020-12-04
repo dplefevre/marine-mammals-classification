@@ -26,7 +26,7 @@ The goal of this project is to explore marine animals classification. I will be 
 
 # About the Data
 
-This project will use the labeled data from:
+This project will use the labeled raw audio from:
 
 * [Watkins Whale Database](https://cis.whoi.edu/science/B/whalesounds/index.cfm)
 
