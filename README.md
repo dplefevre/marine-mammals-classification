@@ -39,6 +39,8 @@ This project will use the labeled data from:
 
 # Preparing data for classification
 
+* Reading and scraping audio files and their labels.
+
 * All the audio files were sliced into 30 second clips. Audio files that were longer than 30 seconds were decomposed into lengths of 30 seconds clips which helped generate more data. 
 
 * Next I duplicated all the audio files per class and augmented those halves. I randomly augmented each file 
@@ -50,6 +52,7 @@ This project will use the labeled data from:
 * This doubled the size of data in each class where exactly half of the data in each class is an augmented version of the original file. 
 
 Here is some exploratory visual representations of each class using spectrograms and oscillograms.
+* Compare the waveform and the spectrogram from the dataset.
 
 ![](images/Spectro_Oscilo2.png ) 
 
@@ -109,10 +112,13 @@ A confusion matrix is helpful to see how well the model did on each of the marin
 # Run inference on a new audio source"
 Finally, verifying the models' prediction output using an input audio outside of dataset.
 
-![](images/inferenceHumpbackWhale.png)
-![](images/inferenceSpermWhale.png)
+* This audio has two marine animals in this 30 second clip
 
+[False Killer Whale & Dolphin](ttps://www.youtube.com/watch?v=2WY6Rf2gYKE)
 
+![](images/NN_prediction.png)
+![](images/CNN_prediction.png)
 
+You can see that the CNN model very clearly recognized the audio file as "False Killer Whale and some type of Dolphin."
 
-<>
+Whereas, the NN model clearly recognizes just the "False Killer Whale."
