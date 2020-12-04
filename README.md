@@ -128,10 +128,10 @@ A confusion matrix is helpful to see how well the model did on each of the marin
 
 <hr>
 
-# Run inference on a new audio source
+# Run predictions on a new audio source
 Finally, verifying the models' prediction output using an input audio outside of dataset.
 
-* This 30 second audio clip has two marine animals to reconize. Lets see how the model perform!
+* This 30 second audio clip consist of two marine animals to reconize. Lets see how the model perform!
 [False Killer Whale & Dolphin](https://www.youtube.com/watch?v=2WY6Rf2gYKE)
 
 ## NN
