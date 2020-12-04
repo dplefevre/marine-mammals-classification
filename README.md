@@ -70,6 +70,11 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ![](images/nn.png)
 ![](images/NNerror_accuracy3.png)
+<hr>
+
+## Evaluate test set performance
+running the model on the test set and check performance. 
+
 ![](images/NNontestset.png)
 
 ## Display a confusion matrix
