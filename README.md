@@ -56,7 +56,9 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ![](images/Spectro_Oscilo2.png ) 
 
-## Transform the waveform dataset to have MFCCs images and their corresponding labels as integer IDs.
+<hr>
+
+# Transform the waveform dataset to have MFCCs images and their corresponding labels as integer IDs.
 [MFCCs wiki](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
 
 * extracted 10 segments (MFCCs) every 3 seconds on all 30 seconds audio files. 
