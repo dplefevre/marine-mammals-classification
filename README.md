@@ -83,8 +83,15 @@ A confusion matrix is helpful to see how well the model did on each of the marin
 
 ![](images/cnnmodelsummary.png)
 
-![](images/error_accuracycnn3.png)
 <hr>
+
+## Evaluate test set performance
+running the model on the test set and check performance. 
+
+![](images/error_accuracycnn3.png)
+
+<hr>
+
 ## Evaluate test set performance
 running the model on the test set and check performance. 
 
