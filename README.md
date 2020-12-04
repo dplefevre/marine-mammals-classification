@@ -58,16 +58,16 @@ Here is some exploratory visual representations of each class using spectrograms
 
 <hr>
 
-# Visualize MFCCs and MFCCs delta of an audio sample Humpback Whale
+# Visualize MFCCs and MFCCs delta
 [MFCCs wiki](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
 
-* Visualize MFCCs
+* Visualize MFCCs of 30 seconds sample of Humpback Whale
 
 ![](images/humpbackmfcc.png)
 
 <hr>
 
-* Visualize MFCCs delta
+* Visualize MFCCs delta of 30 seconds sample of Humpback Whale
 [Deltas](https://wiki.aalto.fi/display/ITSP/Deltas+and+Delta-deltas)
 
 ![](images/humpbackmfccdelta.png)
