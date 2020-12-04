@@ -126,7 +126,7 @@ A confusion matrix is helpful to see how well the model did on each of the marin
 ![](images/finalCFcnn3.png)
 <hr>
 
-# Run inference on a new audio source"
+# Run inference on a new audio source
 Finally, verifying the models' prediction output using an input audio outside of dataset.
 
 * This audio has two marine animals in this 30 second clip
