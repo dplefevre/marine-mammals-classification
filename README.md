@@ -39,7 +39,7 @@ This project will use the labeled data from:
 
 # Preparing data for classification
 
-* Reading and scraping audio files and their labels.
+* Reading and web scraping audio files and their labels.
 
 * All the audio files were sliced into 30 second clips. Audio files that were longer than 30 seconds were decomposed into lengths of 30 seconds clips which helped generate more data. 
 
