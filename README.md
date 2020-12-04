@@ -10,7 +10,7 @@ By listening to sensitive underwater environments with passive acoustic monitori
 [quoted from noaa](https://noaa.maps.arcgis.com/apps/Cascade/index.html?appid=c653c78262a7487da42149ebc86f80c2)
 
 <hr>
-The goal of this project is to explore marine animals classification. I will be implementing two machine learning models, a neural network and convolution neural network. The marine animals that I'll be classifying are:
+The goal of this project is to explore marine animals classification. I will be implementing two machine learning models, a neural network and convolution neural network. The marine animals that I'll be classifying:
 
 * Killer Whale
 * False Killer Whale
