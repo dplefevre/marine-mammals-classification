@@ -61,6 +61,8 @@ Here is some exploratory visual representations of each class using spectrograms
 # Visualize MFCCs and MFCCs delta
 [MFCCs wiki](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
 
+*  Audio feature choice for speech recognition/identification (1970s)
+
 * Visualize MFCCs Humpback Whale audio sample
 
 ![](images/humpbackmfcc.png)
