@@ -152,6 +152,6 @@ Whereas, the NN model clearly recognizes only the "False Killer Whale."
 
 * Gather more data when it becomes more public.
 
-* Add more classes of marine animals to reconize.
+* Add more classes of marine animals to recognize.
 
 * Introduce human sounds into the dataset. e.g. vessel and boats.
