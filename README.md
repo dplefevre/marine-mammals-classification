@@ -144,7 +144,7 @@ Finally, verifying the models' prediction output using an input audio outside of
 
 
 
-You can see that the NN model clearly recognizes only the "False Killer Whale."
+You can see that the NN model clearly recognizes only the dominate source in the audio "False Killer Whale."
 
 Whereas, the CNN model clearly recognized two sources in the audio file as "False Killer Whale and Dolphin."
 
