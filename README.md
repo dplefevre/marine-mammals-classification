@@ -53,7 +53,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ![](images/Spectro_Oscilo2.png ) 
 
-## Extract a Mel-Frequency cepstral coefficients (MFCCs) using Librosa.
+## Extract Mel-Frequency cepstral coefficients (MFCCs) using Librosa.
 [MFCCs wiki](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
 
 * extracted 10 segments (MFCCs) every 3 seconds on all 30 seconds audio files. 
