@@ -49,9 +49,17 @@ This project will use the labeled data from:
     
 * This doubled the size of data in each class where exactly half of the data in each class is an augmented version of the original file. 
 
-* Audio samples of each class at 30 seconds.
+Here is some exploratory visual representations of each class using spectrograms and oscillograms.
 
 ![](images/Spectro_Oscilo2.png ) 
+
+## Extract a Mel-Frequency cepstral coefficients (MFCCs) using Librosa.
+[MFCCs wiki](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
+
+* extracted 10 segments (MFCCs) every 3 seconds on all 30 seconds audio files. 
+
+
+![](images/extractMFCCsHumpback3.png)
 
 
 
