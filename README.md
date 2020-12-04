@@ -143,7 +143,7 @@ Finally, verifying the models' prediction output using an input audio outside of
 
 You can see that the CNN model very clearly recognized the audio file as "False Killer Whale and some type of Dolphin."
 
-Whereas, the NN model clearly recognizes just the "False Killer Whale."
+Whereas, the NN model clearly recognizes only the "False Killer Whale."
 
 <hr>
 
