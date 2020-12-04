@@ -69,7 +69,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 <hr>
 
-* Visualize MFCCs [Delta](https://wiki.aalto.fi/display/ITSP/Deltas+and+Delta-deltas) on Humpback Whale audio sample.
+* Visualize MFCCs [Delta](https://wiki.aalto.fi/display/ITSP/Deltas+and+Delta-deltas) on the same Humpback Whale audio sample.
 
 ![](images/humpbackmfccdelta.png)
 
