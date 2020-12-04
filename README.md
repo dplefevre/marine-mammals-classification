@@ -155,6 +155,10 @@ Whereas, the CNN model clearly recognized two sources in the audio file as "Fals
 
 * Gather more data when it becomes more public.
 
+* Train models with (mel) spectrograms and compare the results.
+
+* Implement Tensorflow audio data pipeline.
+
 * Add more classes of marine animals to recognize.
 
 * Introduce human sounds into the dataset. e.g. vessel and boats.
