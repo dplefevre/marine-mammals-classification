@@ -71,18 +71,34 @@ Here is some exploratory visual representations of each class using spectrograms
 ![](images/nn.png)
 ![](images/NNerror_accuracy3.png)
 ![](images/NNontestset.png)
+
+## Display a confusion matrix
+A confusion matrix is helpful to see how well the model did on each of the marine animals in the test set. 
+
 ![](images/NNconfusionFinal3.png )
 
 
 ## Classifying using CNNs
+<hr>
 
 ![](images/cnnmodelsummary.png)
+
 ![](images/error_accuracycnn3.png)
+<hr>
+## Evaluate test set performance
+running the model on the test set and check performance. 
+
 ![](images/cnnontestset.png)
+<hr>
+
+## Display a confusion matrix
+A confusion matrix is helpful to see how well the model did on each of the marine animals in the test set. 
+
 ![](images/finalCFcnn3.png)
 <hr>
 
-# Run Inference on unseen audio source "specifically from youtube & MBARI."
+# Run inference on a new audio source"
+Finally, verifying the models' prediction output using an input audio outside of dataset.
 
 ![](images/inferenceHumpbackWhale.png)
 ![](images/inferenceSpermWhale.png)
