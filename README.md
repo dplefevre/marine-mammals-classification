@@ -83,6 +83,13 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ![](images/extractMFCCsHumpback3.png)
 
+<hr>
+
+# Class Balance:
+
+![](images/classbalance.png )
+
+
 
 <hr>
 
