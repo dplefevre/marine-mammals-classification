@@ -75,7 +75,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 # Transform the waveform dataset to have MFCCs images and their corresponding labels as integer IDs.
 
-* extracted 10 segments of (MFCCs) on all 30 seconds audio files. "e.g. every 3 seconds" 
+* extracted 13 (MFCCs) on 10 segments over each 30 seconds audio files. "e.g. every 3 seconds" 
 * generated more data to train on.
 
 
