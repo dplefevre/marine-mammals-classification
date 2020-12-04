@@ -1,24 +1,57 @@
-# marine-mammals-classification
-## Application:
+# Classifying marine animals with CNNs and NN
 
-Trained model to classify a subset of a whale database. Attempt to tag these classfication in realtime using soundcard and streaming library.
+"Because water is denser than air, sound travels very efficiently underwater. Sounds from some species of marine life and human activity can be heard many miles away and, in some cases, across oceans. 
 
+Passive acoustic instruments record these sounds in the ocean. There are some hydrophones that generate up to 24 terabytes a year! "e.g. Big Data"
+
+This data provides valuable information that helps government agencies and industries understand and reduce the impacts of noise on ocean life.
+
+By listening to sensitive underwater environments with passive acoustic monitoring tools, we can learn more about migration patterns, animal behavior and communication."
+[quoted from noaa](https://noaa.maps.arcgis.com/apps/Cascade/index.html?appid=c653c78262a7487da42149ebc86f80c2)
+
+<hr>
+The goal of this project is to explore marine animals classification. I will be implementing two machine learning models, a neural network and convolution neural network. The marine animals that I'll be classifying are:
+
+* Killer Whale
+* False Killer Whale
+* Bowhead Whale
+* White Sided Dolphin
+* Risso Dolphin
+* Northern Right Whale
+* Humpback Whale
+* Sperm Whale
+* Short Finned Pilot Whale 
+
+<hr>
+
+# About the Data
+
+This project will use the labeled data from:
+
+* [Watkins Whale Database](https://cis.whoi.edu/science/B/whalesounds/index.cfm)
+
+* [Monterey Bay Research Institute](https://www.mbari.org)
+
+* [AudioSet: YouTube](https://research.google.com/audioset/)
 
 
 <hr>
-# Data Scrape and Augmentation
 
-[Watkins Whale Database](https://cis.whoi.edu/science/B/whalesounds/index.cfm)
+# Preparing data for classification
 
-* Mongoserver "Docker container"
+* All the audio files were sliced into 30 second clips. Audio files that were longer than 30 seconds were decomposed into lengths of 30 seconds clips which helped generate more data. 
 
+* Next I duplicated all the audio files per class and augmented those halves. I randomly augmented each file 
+    * +/- 3 dB , 
+    * +/- 2 semitones, 
+    * time stretch 
+    * and added some noise. 
+    
+* This doubled the size of data in each class where exactly half of the data in each class is an augmented version of the original file. 
 
-## Classes: 
+* Audio samples of each class at 30 seconds.
 
-
-* The data was scraped from Hawkins marine mammal database. Using Docker image mongo server to store content. I created a marine sound database with each class as a collection within the database. Each class has about 60 audio cuts in which we download via the web scrape to a pre-process data directory for lengthening, duplicating and augmenting. I have two separate data directories. The first is "data" within "webscrape" in which the raw audio is downloadedfrom the website is stored. Second is a training dataset, Which stores each class of audio files to the length of 30 seconds. 
-
-* To achieve this, I implement the audio Concatenate and augmentation python file. This file walks the directories of the raw audio data initially downloaded and aplies two seperates task. The first part of the Python file extends each audio track to 30 seconds And is stored in a new directory call training data. The second half of the Python file iterates through each class and duplicates the audio file to randomly augments +/- 3 dB and +/- 2 semitones. These new augmentant samples are then stored back into the training dataset in the appropriate class. This synthesize data set is approximately 10,800 data points. Each class has original audio and half augmented all at 30 seconds with approximatel 100 - 130 audio clip per class. The classes are balanced. 
+![](images/Spectro_Oscilo2.png ) 
 
 
 
