@@ -133,7 +133,10 @@ Finally, verifying the models' prediction output using an input audio outside of
 
 [False Killer Whale & Dolphin](https://www.youtube.com/watch?v=2WY6Rf2gYKE)
 
+## NN
 ![](images/NN_prediction.png)
+
+## CNN
 ![](images/CNN_prediction.png)
 
 You can see that the CNN model very clearly recognized the audio file as "False Killer Whale and some type of Dolphin."
