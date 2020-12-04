@@ -124,6 +124,8 @@ running the model on the test set and check performance.
 A confusion matrix is helpful to see how well the model did on each of the marine animals in the test set. 
 
 ![](images/finalCFcnn3.png)
+
+
 <hr>
 
 # Run inference on a new audio source
