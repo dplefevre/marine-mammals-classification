@@ -62,40 +62,21 @@ Here is some exploratory visual representations of each class using spectrograms
 ![](images/extractMFCCsHumpback3.png)
 
 
-
-# Audio preprocessing:
-
-* Audio must be converted to wav format for parsers and audio concat to work properly.
-
-Once we have our training dataset we will proceed to Pre-process our audio to MFCCs. Here, we will take a MFCCs every 3 seconds of each audio track in each class. The audio is down sampled to 22050 and mono. We will walk through the training data set directories applying pre-processing to each class. The pre-processing python file will export our MFCCs, Labels and mappings for each class into a json file. 
-
-* NOTE before preprocessing MFCCs check the training data set directory in the terminal with: 
-
-```bash
-find . -name ".DS_Store" -print
-
-
-find . -name ".ipynb_checkpoints" -print
-
-
-add -delete if you find any before creating the MFCC dataset.
-```
-
-
-# Training CNN and Evaluating:
-
-![](images/model_summary.png)
-![](images/training_plot.png)
-![](images/classes.png)
-
-## Confusion matrix
-
-![](images/confusion_matrix.png)
-
 <hr>
 
-# Saved the entire model as "SaveModel format" and retrain on mel spectrograms.
+# Models
 
+## Classifying using NNs
+
+![](images/nn.png)
+![](images/NNerror_accuracy3.png)
+![](images/NNconfusionFinal3.png )
+
+
+## Classifying using CNNs
+
+![](images/error_accuracycnn3.png)
+![](images/finalCFcnn3.png)
 <hr>
 
 # Run Inference on unseen audio source "specifically from youtube & MBARI."
