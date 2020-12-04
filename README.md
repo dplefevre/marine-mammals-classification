@@ -70,6 +70,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ![](images/nn.png)
 ![](images/NNerror_accuracy3.png)
+![](images/NNontestset.png)
 ![](images/NNconfusionFinal3.png )
 
 
@@ -77,6 +78,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ![](images/cnnmodelsummary.png)
 ![](images/error_accuracycnn3.png)
+![](images/cnnontestset.png)
 ![](images/finalCFcnn3.png)
 <hr>
 
