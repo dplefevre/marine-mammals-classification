@@ -88,7 +88,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 # Build and train the models
 
-## Built and trained NNs:
+## Built and trained a Neural Network:
 
 ![](images/nn.png)
 ![](images/NNerror_accuracy3.png)
@@ -105,7 +105,7 @@ A confusion matrix is helpful to see how well the model did on each of the marin
 ![](images/NNconfusionFinal3.png )
 
 
-## Built and trained CNNs:
+## Built and trained a Convolutional Neural Network:
 <hr>
 
 ![](images/cnnmodelsummary.png)
