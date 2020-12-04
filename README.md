@@ -75,6 +75,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 ## Classifying using CNNs
 
+![](images/cnnmodelsummary.png)
 ![](images/error_accuracycnn3.png)
 ![](images/finalCFcnn3.png)
 <hr>
