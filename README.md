@@ -114,7 +114,7 @@ Finally, verifying the models' prediction output using an input audio outside of
 
 * This audio has two marine animals in this 30 second clip
 
-[False Killer Whale & Dolphin](ttps://www.youtube.com/watch?v=2WY6Rf2gYKE)
+[False Killer Whale & Dolphin](https://www.youtube.com/watch?v=2WY6Rf2gYKE)
 
 ![](images/NN_prediction.png)
 ![](images/CNN_prediction.png)
