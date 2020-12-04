@@ -67,7 +67,7 @@ Here is some exploratory visual representations of each class using spectrograms
 
 <hr>
 
-* Visualize MFCCs delta of 30 seconds sample of Humpback Whale
+* Visualize MFCCs delta on a 30 seconds sample of Humpback Whale
 [Deltas](https://wiki.aalto.fi/display/ITSP/Deltas+and+Delta-deltas)
 
 ![](images/humpbackmfccdelta.png)
