@@ -160,7 +160,7 @@ Whereas, the CNN model clearly recognized two sources in the audio file as "Fals
 
 # Next steps
 
-* Gather more data when it becomes more public.
+* Gather more data when it becomes available.
 
 * Train models with (mel) spectrograms and compare the results.
 
