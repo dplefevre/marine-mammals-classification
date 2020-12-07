@@ -30,7 +30,7 @@ This project will use labeled raw audio from:
 
 * [Watkins Whale Database](https://cis.whoi.edu/science/B/whalesounds/index.cfm)
 
-* [Monterey Bay Research Institute](https://www.mbari.org)
+* [Monterey Bay Aquarium Research Institute](https://www.mbari.org)
 
 * [AudioSet: YouTube](https://research.google.com/audioset/)
 
